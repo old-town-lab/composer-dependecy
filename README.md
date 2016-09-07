@@ -1,2 +1,3 @@
-# composer-dependecy
-Зависимости для композера
+# composer-dependency
+
+# Установка

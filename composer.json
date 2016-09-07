@@ -1,0 +1,51 @@
+{
+  "name": "old-town-lab/composer-dependency",
+  "description": "Build composer dependency",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "composer",
+    "dependency",
+    "tool"
+  ],
+  "authors": [
+    {
+      "name": "Malofeykin Andrey",
+      "email": "and-rey2@yandex.ru",
+      "role": "owner"
+    }
+  ],
+  "homepage": "https://github.com/old-town-lab/composer-dependency",
+  "require": {
+    "php": ">=5.5",
+    "zendframework/zend-version": "~2.4.0",
+    "beberlei/assert": "2.6.*",
+    "zendframework/zend-mvc": "~2.4.0",
+    "zendframework/zend-config": "~2.4.0",
+    "zendframework/zend-loader": "~2.4.0",
+    "zendframework/zend-log": "~2.4.0",
+    "zendframework/zend-i18n": "~2.4.0",
+    "zendframework/zend-modulemanager": "~2.4.0",
+    "zendframework/zend-view": "~2.4.0",
+    "zendframework/zend-serializer": "~2.4.0",
+    "zendframework/zend-console": "~2.4.0",
+    "zendframework/zend-http": "~2.4.0",
+    "zendframework/zend-cache": "~2.4.0",
+    "zendframework/zend-json": "~2.4.0",
+    "psr/log": "1.0.*",
+    "monolog/monolog": "~1.21.0",
+    "enlitepro/enlite-monolog": "~2.1.1",
+    "nnx/module-options": "~0.1.0",
+    "nikic/php-parser": "~2.1.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "OldTown\\Lab\\ComposerDependency\\": "src/"
+    },
+    "classmap": [
+      "./Module.php",
+      "src/"
+    ]
+  }
+}
